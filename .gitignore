@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+*.env
+!.env.example
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Databases
+*.duckdb
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated datasets
+data/raw/*
+data/processed/*
+data/synthetic/*
+
+# Preserve folders
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/synthetic/.gitkeep
+
+# Generated outputs
+outputs/charts/*
+outputs/reports/*
+
+!outputs/charts/.gitkeep
+!outputs/reports/.gitkeep
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
